@@ -844,6 +844,11 @@ section,
   color: var(--heading-color);
 }
 
+.services-icon img.service_icon_img {
+    width: 100px;
+    height: 100px;
+    /* 추가 스타일 */
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
