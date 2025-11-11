@@ -1069,6 +1069,8 @@ section,
   color: var(--heading-color);
   font-size: 22px;
   margin-bottom: 30px;
+  /* [!] 글자 여백 안정화 */
+  line-height: 1.4;
 }
 
 .services-2 p {
