@@ -1,4 +1,6 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
+<%@ page import="java.sql.*"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +24,7 @@
   </header>
 
 <main class="main">
-    <jsp:include page="assets/jsp/login_patch.jsp" /> 
+    <jsp:include page="assets/jsp/register_patch.jsp" /> 
     </main>
 
 <!-- [!] footer 데이터 동기화를 위해 jsp 분리 및, 페이지에서 include  -->
