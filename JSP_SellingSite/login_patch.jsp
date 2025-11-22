@@ -8,7 +8,7 @@
                     <div class="card p-4">
                         <h2 class="text-center mb-4">로그인</h2>
                         
-                        <form name="loginForm" action="assets/jsp/login_process.jsp" method="POST">
+                        <form name="loginForm" action="login_process.jsp" method="POST">
                             
                             <div class="mb-3">
                                 <p>아이디 (ID)</p>
@@ -28,9 +28,11 @@
                                 <a href="#">아이디 / 비밀번호 찾기</a>
                                 <span class="mx-2">|</span>
                                 <a href="register.jsp">회원가입</a>
+                                <span class="mx-2">|</span>
+                                <a href="logout_process.jsp">로그아웃</a>
                             </div>
-
                         </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,7 +44,7 @@
         	%>
         		 <div class="row justify-content-center mt-3" data-aos="fade-up">
                  <div class="col-lg-6">
-                     <div class="alert alert-danger" role="alert" style="text-align: center;">
+                     <div class="alert alert-success" role="alert" style="text-align: center;">
                    		<%= loginSuccess %>
                      </div>
                  </div>
@@ -66,6 +68,4 @@
             }
         %>
         </section>
-        </div>
-    </section>
  

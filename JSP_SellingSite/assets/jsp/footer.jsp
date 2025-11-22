@@ -22,12 +22,12 @@
             <!--  [!] 네비게이션에 맞는 각 파일로 링크 연결  -->
               <li><a href="index.jsp">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
+              <li><a href="services.jsp">Services</a></li>
             </ul>
             <ul class="list-unstyled float-start">
               <li><a href="blog.html">Blog</a></li>
               <!-- [!] team.html은 login.html 파일로 수정 예정-->
-              <li><a href="team.html">Login</a></li>
+              <li><a href="login.jsp">Login</a></li>
               <li><a href="contact.jsp">Contact</a></li>
             </ul>
           </div>

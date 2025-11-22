@@ -9,7 +9,7 @@
                     <div class="card p-4">
                     <!-- [!] 회원가입용 사이트를 만들어서 데이터베이스에 입력된 데이터 저장, 이후 로그인창에서 값이 있으면 그거로 로그인 -->
                         <h2 class="text-center mb-4">회원가입</h2>
-                        <form name="loginForm" action="assets/jsp/register_process.jsp" method="POST">
+                        <form name="loginForm" action="register_process.jsp" method="POST">
                             
                             <div class="mb-3">
                                 <p>아이디 (ID)</p>
@@ -29,9 +29,26 @@
                             <div class="d-grid">
                                 <input type="submit" class="btn btn-primary" value = "회원가입">
                             </div>
-
+                            <p>
+<% 
+    // 세션에서 오류 메시지(loginError)를 가져옴
+    String errorMsg = (String) session.getAttribute("loginError");
+    
+    // 오류 메시지가 있다면 출력
+    if (errorMsg != null) {
+%>
+        <div class="alert alert-danger" role="alert">
+            <%= errorMsg %>
+        </div>
+<%
+        // 메시지를 한 번 출력했으면 세션에서 제거 (중요!)
+        session.removeAttribute("loginError");
+    } 
+%>
                         </form>
                     </div>
                 </div>
             </div>
+            </div>
+            </section>
  
