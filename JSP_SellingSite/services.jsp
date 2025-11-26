@@ -59,7 +59,7 @@
               고객의 복잡한 고민을 해결합니다.
             </p>
             <p>
-              <a href="services.html" class="btn btn-get-started">Go Services</a>
+              <a href="services.jsp" class="btn btn-get-started">Go Services</a>
             </p>
           </div>
           <div class="col-md-6 col-lg-6 ps-lg-5">

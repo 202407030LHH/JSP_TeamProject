@@ -81,6 +81,7 @@
               반본체부터 완본체까지 구경하실 수 있습니다!
             </p>
             <p class="mt-5" data-aos="fade-up">
+            <!-- [!] 원진수 부분 되면 수정예정 -->
               <a href="about.html" class="btn btn-get-started">바로가기</a>
             </p>
           </div>
@@ -124,7 +125,7 @@
                   당첨자발표: 2026.01.30.(금) 13:00
                 </p>
                 <p>
-                  <a href="contact.html" class="btn-get-started">바로가기</a>
+                  <a href="contact.jsp" class="btn-get-started">바로가기</a>
                 </p>
               </div>
             </div>
@@ -249,17 +250,18 @@
       </div><!-- End Section Title -->
       <div class="container">
 
+<!--  [!] 블로그 내용 수정 후 jsp 파일로 연결 -->
         <div class="row gy-4">
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-              <a href="#" class="thumb d-block"><img src="assets/img/blog/blog-1.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="blog.jsp" class="thumb d-block"><img src="assets/img/blog/blog-1.jpg" alt="Image" class="img-fluid rounded"></a>
 
               <div class="post-content">
                 <div class="meta">
-                  <a href="#" class="cat">Sort</a> •
+                  <a href="blog.jsp" class="cat">Sort</a> •
                   <span class="date">2025 9 20</span>
                 </div>
-                <h3><a href="#"><b>게이머들을 위한 추천 PC</b></a></h3>
+                <h3><a href="blog.jsp"><b>게이머들을 위한 추천 PC</b></a></h3>
                 <p>
                   게임을 즐기는 분들께 있어 게임용 노트북은 필수품이라고 해도 과언이 아닙니다. 하지만 다양한 제품들이 출시되면서 어떤 노트북을 선택해야 할지 고민이...
                 </p>
@@ -271,14 +273,14 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-              <a href="#" class="thumb d-block"><img src="assets/img/blog/blog-2.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="blog.jsp" class="thumb d-block"><img src="assets/img/blog/blog-2.jpg" alt="Image" class="img-fluid rounded"></a>
 
               <div class="post-content">
                 <div class="meta">
-                  <a href="#" class="cat">Fashion</a> •
+                  <a href="blog.jsp" class="cat">Fashion</a> •
                   <span class="date">2025 9 28</span>
                 </div>
-                <h3><a href="#"><b>컴퓨터 구매를 처음해보는 초보자들을 위한 팁</b></a></h3>
+                <h3><a href="blog.jsp"><b>컴퓨터 구매를 처음해보는 초보자들을 위한 팁</b></a></h3>
                 <p>
                   노트북 선택할 땐 중요한게 자신의 상황에 맞춰 선택하는 것이죠. 무조건 비싼거만 구입한다고 장땡이 아니고 사용환경을 제대로 고려해야 하죠. 그래야 불필요한 ...
                 </p>
@@ -291,14 +293,14 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
-              <a href="#" class="thumb d-block"><img src="assets/img/blog/blog-3.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="blog.jsp" class="thumb d-block"><img src="assets/img/blog/blog-3.jpg" alt="Image" class="img-fluid rounded"></a>
 
               <div class="post-content">
                 <div class="meta">
-                  <a href="#" class="cat">Laws</a> •
+                  <a href="blog.jsp" class="cat">Laws</a> •
                   <span class="date">2025 10 2</span>
                 </div>
-                <h3><a href="#"><b>컴퓨터가 느려졌을 때 해결법</b></a></h3>
+                <h3><a href="blog.jsp"><b>컴퓨터가 느려졌을 때 해결법</b></a></h3>
                 <p>
                   컴퓨터를 사용하다 보면 어느 날 갑자기 부팅 속도가 느려지거나, 프로그램이 열리는 데 한참 걸리고, 웹페이지 로딩조차 버벅거리는 경험을 하신 적...
                 </p>
@@ -408,8 +410,8 @@
                   }
                 }
               </script> 
-            <!-- 블로그 아래 큰 영역 데이터, 이미지 변경을 어려움.-->
-            <!-- swiper 영역으로 지칭-->
+            <!-- [!] 블로그 아래 큰 영역 데이터, 이미지 변경을 어려움.-->
+            <!-- [!] swiper 영역으로 지칭-->
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <img src="assets/img/IMG_index/swiper_h_1.png" alt="Image" class="img-fluid">
@@ -476,7 +478,8 @@
               고객의 복잡한 고민을 해결합니다.
             </p>
             <p>
-              <a href="services.html" class="btn btn-get-started">Go Services</a>
+            <!--  [!] jsp 파일로 연결 -->
+              <a href="services.jsp" class="btn btn-get-started">Go Services</a>
             </p>
           </div>
           <div class="col-md-6 col-lg-6 ps-lg-5">

@@ -1,5 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%
+    // 현재 요청된 페이지의 URI (예: /JSP_SellingSite/services.jsp)를 가져옴
+    String requestURI = request.getRequestURI(); 
+    
+    // URI에서 파일 이름만 추출 (예: services.jsp)
+    // 마지막 '/' 이후의 문자열을 찾음.
+    String currentPage = requestURI.substring(requestURI.lastIndexOf('/') + 1);
+
+    // 디버깅: System.out.println("Current Page: " + currentPage); 
+%>
    
 <div class="container-fluid container-xl position-relative d-flex align-items-center">
     <a href="index.jsp" class="logo d-flex align-items-center" style="margin-right: auto;"> 
@@ -8,19 +18,19 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.jsp" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.jsp">Services</a></li>
-          <li><a href="portfolio.jsp">Portfolio</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <!-- [!] 추후 모든 사이트에서 team 데이터 대신 LOGIN으로 변경해야 함. (팀장업무)
-          변경 완료 및 팀원들 작업 완료 되는대로 .html 파일 jsp로 변경 예정.-->
-          <li><a href="login.jsp">Login</a></li>
-          <li><a href="contact.jsp">Contact</a></li>
+          
+          <li><a href="index.jsp" class="<%= currentPage.equals("index.jsp") ? "active" : "" %>">Home</a></li>
+          <li><a href="about.html" class="<%= currentPage.equals("about.html") ? "active" : "" %>">About</a></li>
+          <li><a href="services.jsp" class="<%= currentPage.equals("services.jsp") ? "active" : "" %>">Services</a></li>
+          
+          <li><a href="portfolio.jsp" class="<%= currentPage.equals("portfolio.jsp") ? "active" : "" %>">Portfolio</a></li>
+          <li><a href="blog.jsp" class="<%= currentPage.startsWith("blog") ? "active" : "" %>">Blog</a></li>
+          
+          <li><a href="login.jsp" class="<%= currentPage.contains("login") ? "active" : "" %>">Login</a></li>
+          <li><a href="contact.jsp" class="<%= currentPage.equals("contact.jsp") ? "active" : "" %>">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     <div class="align-self-center" id="welcome-message" style="margin-left: auto; 
                                           color: #1e4d77; 
                                           white-space: nowrap;
