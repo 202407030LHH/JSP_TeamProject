@@ -11,7 +11,7 @@
               so come and take a look!
             </p>
             <p class="mb-0">
-              <a href="about.html" class="btn-learn-more">Go about</a>
+              <a href="about.jsp" class="btn-learn-more">Go about</a>
             </p>
           </div>
         </div>
@@ -21,11 +21,11 @@
             <ul class="list-unstyled float-start me-5">
             <!--  [!] 네비게이션에 맞는 각 파일로 링크 연결  -->
               <li><a href="index.jsp">Home</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="about.jsp">About</a></li>
               <li><a href="services.jsp">Services</a></li>
             </ul>
             <ul class="list-unstyled float-start">
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="blog.jsp">Blog</a></li>
               <!-- [!] team.html은 login.html 파일로 수정 예정-->
               <li><a href="login.jsp">Login</a></li>
               <li><a href="contact.jsp">Contact</a></li>

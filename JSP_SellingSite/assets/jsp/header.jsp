@@ -20,7 +20,7 @@
         <ul>
           
           <li><a href="index.jsp" class="<%= currentPage.equals("index.jsp") ? "active" : "" %>">Home</a></li>
-          <li><a href="about.html" class="<%= currentPage.equals("about.html") ? "active" : "" %>">About</a></li>
+          <li><a href="about.jsp" class="<%= currentPage.equals("about.jsp") ? "active" : "" %>">About</a></li>
           <li><a href="services.jsp" class="<%= currentPage.equals("services.jsp") ? "active" : "" %>">Services</a></li>
           
           <li><a href="portfolio.jsp" class="<%= currentPage.equals("portfolio.jsp") ? "active" : "" %>">Portfolio</a></li>
